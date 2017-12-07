@@ -9,7 +9,7 @@ Authors: Dave Fisher and Derek Hepworth.
 
 
 # ------------------------------------------------------------------
-# TODO: 2. Make the robot say "David Fisher can write E V 3 programs"
+# BOOM SON: 2. Make the robot say "David Fisher can write E V 3 programs"
 #   But of course use YOUR NAME.
 #
 #   Use the samples to figure out the necessary lines of code.
@@ -17,3 +17,14 @@ Authors: Dave Fisher and Derek Hepworth.
 #   Feel free to run it, change it, and run it again with any message you like.
 #   This program is simple, but if you can do this, then you have the tools to do FAR more.
 # ------------------------------------------------------------------
+
+import ev3dev.ev3 as ev3
+
+def main():
+    """ Creates the LargeMotor objects and passes them to other functions. """
+    print("--------------------------------------------")
+    print("  Say your Name ")
+    print("--------------------------------------------")
+    ev3.Sound.speak("Why must you laugh at me?").wait()
+
+main()
