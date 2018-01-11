@@ -5,7 +5,7 @@ This module is meant to be your first program that you've made for EV3.
   Use the samples to learn the API calls needed (not much code to write)
 
 Authors: Dave Fisher and Derek Hepworth.
-"""  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
+"""  # DONe: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 
 # ------------------------------------------------------------------
@@ -25,6 +25,6 @@ def main():
     print("--------------------------------------------")
     print("  Say your Name ")
     print("--------------------------------------------")
-    ev3.Sound.speak("Why must you laugh at me?").wait()
+    ev3.Sound.speak("H E L L O  B U T  F A N C Y").wait()
 
 main()
